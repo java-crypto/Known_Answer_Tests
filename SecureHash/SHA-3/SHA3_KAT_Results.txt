@@ -1,0 +1,79 @@
+SHA-3 Family Known Answer Test (KAT)
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/sha3vs.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/shakebytetestvectors.zip
+
+Test on 17.05.2020 13:01:05 with Java version: 11.0.6+8-b520.43
+
+testing filename: kat/sha_3/SHA3_256ShortMsg.rsp
+readLines: 555
+header lines: 4
+nr of test vectors: 137
+testing the data
+
+testing filename: kat/sha_3/SHA3_256LongMsg.rsp
+readLines: 408
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_384ShortMsg.rsp
+readLines: 427
+header lines: 4
+nr of test vectors: 105
+testing the data
+
+testing filename: kat/sha_3/SHA3_384LongMsg.rsp
+readLines: 408
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_512ShortMsg.rsp
+readLines: 299
+header lines: 4
+nr of test vectors: 73
+testing the data
+
+testing filename: kat/sha_3/SHA3_512LongMsg.rsp
+readLines: 408
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_224ShortMsg.rsp
+readLines: 588
+header lines: 5
+nr of test vectors: 145
+testing the data
+
+testing filename: kat/sha_3/SHA3_224LongMsg.rsp
+readLines: 408
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_256ShortMsg.rsp
+readLines: 555
+header lines: 4
+nr of test vectors: 137
+testing the data
+
+testing filename: kat/sha_3/SHA3_256LongMsg.rsp
+readLines: 408
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+Test results
+filename                         tests  passed  failed
+kat/sha_3/SHA3_256ShortMsg.rsp    137     137       0
+kat/sha_3/SHA3_256LongMsg.rsp     100     100       0
+kat/sha_3/SHA3_384ShortMsg.rsp    105     105       0
+kat/sha_3/SHA3_384LongMsg.rsp     100     100       0
+kat/sha_3/SHA3_512ShortMsg.rsp     73      73       0
+kat/sha_3/SHA3_512LongMsg.rsp     100     100       0
+kat/sha_3/SHA3_224ShortMsg.rsp    145     145       0
+kat/sha_3/SHA3_224LongMsg.rsp     100     100       0
+kat/sha_3/SHA3_256ShortMsg.rsp    137     137       0
+kat/sha_3/SHA3_256LongMsg.rsp     100     100       0

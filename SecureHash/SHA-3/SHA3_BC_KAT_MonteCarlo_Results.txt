@@ -1,0 +1,37 @@
+SHA-3 BC Family Known Answer Test (KAT)
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/sha3vs.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/sha-3bytetestvectors.zip
+
+Test on 17.05.2020 13:00:56 with Java version: 11.0.6+8-b520.43 BouncyCastle Version: BC version 1.65
+
+testing filename: kat/sha_3/SHA3_256Monte.rsp
+readLines: 310
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_384Monte.rsp
+readLines: 310
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_512Monte.rsp
+readLines: 310
+header lines: 5
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_3/SHA3_224Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+Test results
+filename                         tests  passed  failed
+kat/sha_3/SHA3_256Monte.rsp       100     100       0
+kat/sha_3/SHA3_384Monte.rsp       100     100       0
+kat/sha_3/SHA3_512Monte.rsp       100     100       0
+kat/sha_3/SHA3_224Monte.rsp       100     100       0
