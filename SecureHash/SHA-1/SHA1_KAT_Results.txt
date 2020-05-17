@@ -1,0 +1,23 @@
+SHA-1 Known Answer Test (KAT)
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/SHAVS.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/shabytetestvectors.zip
+
+Test on 17.05.2020 12:10:01 with Java version: 11.0.6+8-b520.43
+
+testing filename: kat/sha_1/SHA1ShortMsg.rsp
+readLines: 267
+header lines: 4
+nr of test vectors: 65
+testing the data
+
+testing filename: kat/sha_1/SHA1LongMsg.rsp
+readLines: 263
+header lines: 4
+nr of test vectors: 64
+testing the data
+
+Test results
+filename                     tests  passed  failed
+kat/sha_1/SHA1ShortMsg.rsp     65      65       0
+kat/sha_1/SHA1LongMsg.rsp      64      64       0

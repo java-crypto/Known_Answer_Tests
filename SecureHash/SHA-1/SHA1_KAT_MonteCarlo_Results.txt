@@ -1,0 +1,17 @@
+SHA-1 Know Answer Test (KAT) MonteCarlo
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/SHAVS.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/shabytetestvectors.zip
+
+Test on 17.05.2020 12:10:07 with Java version: 11.0.6+8-b520.43
+
+testing filename: kat/sha_1/SHA1Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+
+testing the data
+
+Test results
+filename                     tests  passed  failed
+kat/sha_1/SHA1Monte.rsp       100     100       0
