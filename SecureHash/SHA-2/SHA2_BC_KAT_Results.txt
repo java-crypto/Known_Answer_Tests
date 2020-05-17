@@ -1,0 +1,79 @@
+SHA-2 BC Family Known Answer Test (KAT)
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/SHAVS.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/shabytetestvectors.zip
+
+Test on 17.05.2020 12:10:27 with Java version: 11.0.6+8-b520.43 BouncyCastle Version: BC version 1.65
+
+testing filename: kat/sha_2/SHA256ShortMsg.rsp
+readLines: 267
+header lines: 4
+nr of test vectors: 65
+testing the data
+
+testing filename: kat/sha_2/SHA256LongMsg.rsp
+readLines: 263
+header lines: 4
+nr of test vectors: 64
+testing the data
+
+testing filename: kat/sha_2/SHA384ShortMsg.rsp
+readLines: 523
+header lines: 4
+nr of test vectors: 129
+testing the data
+
+testing filename: kat/sha_2/SHA384LongMsg.rsp
+readLines: 519
+header lines: 4
+nr of test vectors: 128
+testing the data
+
+testing filename: kat/sha_2/SHA512ShortMsg.rsp
+readLines: 523
+header lines: 4
+nr of test vectors: 129
+testing the data
+
+testing filename: kat/sha_2/SHA512LongMsg.rsp
+readLines: 519
+header lines: 4
+nr of test vectors: 128
+testing the data
+
+testing filename: kat/sha_2/SHA512_224ShortMsg.rsp
+readLines: 523
+header lines: 4
+nr of test vectors: 129
+testing the data
+
+testing filename: kat/sha_2/SHA512_224LongMsg.rsp
+readLines: 519
+header lines: 4
+nr of test vectors: 128
+testing the data
+
+testing filename: kat/sha_2/SHA512_256ShortMsg.rsp
+readLines: 523
+header lines: 4
+nr of test vectors: 129
+testing the data
+
+testing filename: kat/sha_2/SHA512_256LongMsg.rsp
+readLines: 519
+header lines: 4
+nr of test vectors: 128
+testing the data
+
+Test results
+filename                         tests  passed  failed
+kat/sha_2/SHA256ShortMsg.rsp       65      65       0
+kat/sha_2/SHA256LongMsg.rsp        64      64       0
+kat/sha_2/SHA384ShortMsg.rsp      129     129       0
+kat/sha_2/SHA384LongMsg.rsp       128     128       0
+kat/sha_2/SHA512ShortMsg.rsp      129     129       0
+kat/sha_2/SHA512LongMsg.rsp       128     128       0
+kat/sha_2/SHA512_224ShortMsg.rsp  129     129       0
+kat/sha_2/SHA512_224LongMsg.rsp   128     128       0
+kat/sha_2/SHA512_256ShortMsg.rsp  129     129       0
+kat/sha_2/SHA512_256LongMsg.rsp   128     128       0

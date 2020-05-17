@@ -1,0 +1,44 @@
+SHA-2 Family Known Answer Test (KAT)
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/SHAVS.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/shs/shabytetestvectors.zip
+
+Test on 17.05.2020 12:10:53 with Java version: 11.0.6+8-b520.43
+
+testing filename: kat/sha_2/SHA256Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_2/SHA384Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_2/SHA512Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_2/SHA512_224Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/sha_2/SHA512_256Monte.rsp
+readLines: 309
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+Test results
+filename                         tests  passed  failed
+kat/sha_2/SHA256Monte.rsp         100     100       0
+kat/sha_2/SHA384Monte.rsp         100     100       0
+kat/sha_2/SHA512Monte.rsp         100     100       0
+kat/sha_2/SHA512_224Monte.rsp     100     100       0
+kat/sha_2/SHA512_256Monte.rsp     100     100       0
