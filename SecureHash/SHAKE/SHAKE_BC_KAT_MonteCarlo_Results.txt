@@ -1,0 +1,23 @@
+SHAKE BC Family Known Answer Test (KAT) Monte Carlo Mode
+for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Secure-Hashing
+for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/sha3vs.pdf
+get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/sha3/shakebytetestvectors.zip
+
+Test on 18.05.2020 10:32:57 with Java version: 11.0.6+8-b520.43 BouncyCastle Version: BC version 1.65
+
+testing filename: kat/shake/SHAKE128Monte.rsp
+readLines: 411
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+testing filename: kat/shake/SHAKE256Monte.rsp
+readLines: 411
+header lines: 4
+nr of test vectors: 100
+testing the data
+
+Test results
+filename                         tests  passed  failed
+kat/shake/SHAKE128Monte.rsp       100     100       0
+kat/shake/SHAKE256Monte.rsp       100     100       0
