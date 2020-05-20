@@ -42,6 +42,7 @@ public class Run_Aes_Ecb_Kat {
         System.out.println("for information see: https://csrc.nist.gov/Projects/cryptographic-algorithm-validation-program/Block-Ciphers");
         System.out.println("for tests see: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/aes/AESAVS.pdf");
         System.out.println("get the testfiles: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/aes/KAT_AES.zip");
+        System.out.println("testfiles for MMT: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/aes/aesmmt.zip");
 
         System.out.println("\nTest on " + getActualDate() + " with Java version: " + Runtime.version());
 
