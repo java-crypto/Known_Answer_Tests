@@ -1,3 +1,3 @@
 Informationen ueber die AES CCM KAT-Tests: / informations about the AES CCM KAT-Tests:
 
-t.b.d.
+http://java-crypto.bplaced.net/aes-ccm-kat/
