@@ -8,3 +8,12 @@ http://java-crypto.bplaced.net/known-answer-tests-kat/
 
 http://java-crypto.bplaced.net/block-cipher-kat/
 
+AES ECB: http://java-crypto.bplaced.net/aes-ecb-kat/
+
+AES CBC: http://java-crypto.bplaced.net/aes-cbc-kat/
+
+AES CFB: http://java-crypto.bplaced.net/aes-cfb-kat/
+
+AES OFB: http://java-crypto.bplaced.net/aes-ofb-kat/
+
+Folder AES_CCM: tbd
