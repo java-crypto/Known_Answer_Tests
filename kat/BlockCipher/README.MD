@@ -14,6 +14,14 @@ Source: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Valida
 
 Source: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/mac/gcmtestvectors.zip
 
+<b>Testvectors for AES GCM SIV:</b>
+
+Taken from document https://tools.ietf.org/html/rfc8452
+
 <b>Testvectors for AES XTS:</b>
 
 Source: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/aes/XTSTestVectors.zip
+
+<b>Testvectors for AES KEYWRAP:</b>
+
+Source: https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Algorithm-Validation-Program/documents/mac/kwtestvectors.zip
