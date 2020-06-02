@@ -18,4 +18,6 @@ AES OFB: http://java-crypto.bplaced.net/aes-ofb-kat/
 
 Folder AES_CCM: http://java-crypto.bplaced.net/aes-ccm-kat/
 
+Folder AES_GCM_SIV: http://java-crypto.bplaced.net/aes-gcm-siv-kat/
+
 AES GCM: http://java-crypto.bplaced.net/aes-gcm-kat/
